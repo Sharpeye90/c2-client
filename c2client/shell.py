@@ -1,8 +1,10 @@
 from __future__ import print_function, unicode_literals
 
 import argparse
+import codecs
 import os
 import ssl
+import sys
 
 import boto
 
@@ -10,6 +12,10 @@ from functools import wraps
 
 from c2client.compat import get_connection
 from c2client.utils import prettify_xml
+
+
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+sys.stderr = codecs.getwriter('utf8')(sys.stderr)
 
 
 if hasattr(ssl, '_create_unverified_context'):
