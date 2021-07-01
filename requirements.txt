@@ -1,6 +1,6 @@
 argparse; python_version=="2.6"
 boto
-git+https://github.com/C2Devel/boto3.git@develop
-inflection=="0.3.1"
+git+https://github.com/gaisin/boto3.git@botocore-dependency
+inflection==0.3.1
 lxml
 six

@@ -15,8 +15,8 @@ install_requires = [
     "boto",
     "lxml",
     "six",
-    "boto3 @ git+https://github.com/C2Devel/boto3.git@develop",
-    "inflection",
+    "inflection=0.3.1",
+    "boto3 @ git+https://github.com/C2Devel/boto3.git@develop"
 ]
 # argparse moved to stdlib in python2.7
 if sys.version_info[0] == 2 and sys.version_info[1] <= 6:

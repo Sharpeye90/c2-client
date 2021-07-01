@@ -4,7 +4,7 @@
 %endif
 
 Name:    c2-client
-Version: 0.8
+Version: 0.8.2
 Release: 1%{?dist}
 Summary: CROC Cloud platform API client
 
